@@ -1,33 +1,91 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
 <body>
-    <h1 class="heading">Request Blood</h1>
-    <div class="subheading">Fill out the form below to request blood.</div> 
-    <div class="box">
-        <p class="data">Request Form</p>
-        <div class="form">
-        <form action="/action_page.php">
-            <label for="fname">Full Name</label><br>
-            <input type="text" id="fname" name="fname" placeholder="Your name.."><br>
-            <label for="email">Email</label><br>
-            <input type="text" id="email" name="email" placeholder="Your email.."><br>
-            <label for="phone">Phone Number</label><br>
-            <input type="text" id="phone" name="phone" placeholder="Your phone number.."><br>
-            <label for="age">Age</label><br>
-            <input type="text" id="age" name="age" placeholder="Your age.."><br>
-            <label for="bloodgroup">Blood Group</label><br>
-            <input type="text" id="bloodgroup" name="bloodgroup" placeholder="Required blood group.."><br>
-            <label for="reason">Reason for Request</label><br>
-            <input type="text" id="reason" name="reason" placeholder="Reason for blood request.."><br>
-            <label for="address">Address</label><br>
-            <input type="text" id="address" name="address" placeholder="Your address.."><br><br>
-            <input type="submit" id="submit" value="Send Request">
-     </div>
+    <nav class="navbar">
+        <div class="logo">BloodConnect</div>
+        <ul class="nav-links">
+          <li><a href="#">Notifications</a></li>
+          <li><a href="./campaign/index.html" class="links">Campaign</a></li>
+          
+        </ul>
+      </nav>  
+    </div>
+
+
+    <div class="top">
+        
+        <h1>Save Lives with</h1>
+        <h2>BloodConnect</h2>
+        <h3>Connect blood donors with recipients in real-time .Every donation can</h3>
+        <h3> save up to three lives</h3>
+        
+   
+    
+      <div class="tab">
+      <a href="./donor/index.html" class="links"><h4>Become a Donor</h4></a>  
+      <a href="./recipient/index.html" class="links"><h5>Request Blood</h5></a> 
+      </div>
+    </div>
+    
+    <div class="container">
+    <div class="column">
+      <p>Lives Saved</p>
+      <img src="livesaved.png" alt="Lives Saved">
+    </div>
+    <div class="column"> 
+      <p>Active Donors</p>
+      <img src="activedonors.png" alt="Active Donors">
+    </div>
+    <div class="column"> 
+      <p>Blood Units Collected</p>
+      <img src="bloodunits.png" alt="Blood Units Collected">
+    </div>
+    <div class="column">  
+      <p>Emergency Responses</p>
+      <img src="emergencyresponse.png" alt="Emergency Responses">
+    </div>
+  </div>
+    
+<div class="working">
+   <h1>How BloodConnect Works</h1>
+   <h2>Our platform uses advanced matching algorithms to connect blood donors with</h2>
+   <h2>recipients efficiently and safely.</h2>
+
+   <div class="container2">
+    <div class="column2">
+      <h1>Location-Based Matching</h1>
+      <p>Find the nearest compatible
+         donors in real-time for urgent 
+         blood requirements.</p>
+    </div>
+    <div class="column2">
+      <h1>Instant Notifications</h1> 
+      <p>Get immediate alerts for blood
+         requests and campaign updates
+          via real-time system.</p>
+    </div>
+    <div class="column2"> 
+      <h1>Verified Donors</h1>
+      <p>All donors go through eligibility
+         verification including medical history
+          and donation intervals.</p>
+    </div>
+    <div class="column2"> 
+      <h1>Campaign Management</h1> 
+      <p>Organize and participate
+         in blood donation campaigns with
+          calendar scheduling.</p>
+    </div>
+  </div>
+</div>      
+
+
 </body>
 </html>
